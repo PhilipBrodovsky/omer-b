@@ -10,6 +10,9 @@ function ExampleView(props) {
 				<div>
 					<button onClick={props.onClick}>{props.btnText}</button>
 				</div>
+				<div>
+					{props.children}
+				</div>
 			</div>
 		</div>
 	);
